@@ -11,7 +11,7 @@ function Sayac() {
       <h2>{count}</h2>
       <div>
         <button onClick={() => { Mahmut(count - 1); }}
-        >Azalt</button><br/><br/>
+        >Azalt</button> <span>&nbsp;&nbsp;&nbsp;</span>
 
         <button
           onClick={() => {
