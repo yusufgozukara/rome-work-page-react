@@ -81,6 +81,15 @@ button{
   border: 1px solid gray;
 }
 
+
+.chlan{
+  background-color: pink;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
 /*! CSS stillendirmeliri yaparken tüm bu stillendirmelerin
 /*! tek bir dosyada birlesecigini unutmamak gerekir. Parent'daki
 /*! bir stil asagidaki stilleri ezebilir. Bunun icin class isimlerinin
