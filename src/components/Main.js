@@ -7,6 +7,8 @@ import List from "./List";
 import Form from "./Form";
 import FormShort from "./FormShort";
 import Clipboardsample from "./Clipboardsample";
+import MouseEvent from "./MouseEvent";
+import UseEffectSample from "./UseEffectSample";
 
 
 function Main(){
@@ -51,6 +53,8 @@ function Main(){
 
       <Form/>
       <Clipboardsample/>
+      <MouseEvent/>
+      <UseEffectSample/>
       
       
 

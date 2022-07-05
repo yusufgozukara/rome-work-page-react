@@ -6,6 +6,12 @@ const Clipboardsample = () => {
     const handleKeyDown = (e) => {
         console.log(e.keyCode);
         e.target.value = e.target.value.toUpperCase();
+        e.keyCode == 13 && alert('Entera basıldı.')
+    }
+
+    const handleArea = (e) => {
+        e.target.value = e.clipboardData.getData('text').toLowerCase();
+        e.preventDefault();
     }
   return (
     <div>
@@ -15,7 +21,7 @@ const Clipboardsample = () => {
         value={inputValue}
         onChange= {(e) => setInputValue(e.target.value)}
         />
-        <p>{inputValue.toUpperCase()}</p>
+        <p onCopy={() => alert('Dikkat!! Kopyalandı')}>{inputValue.toUpperCase()}</p>
 
         <h3>Altındaki ve içindeki paragrafı büyük harfe çevirir.</h3>
         <input type="text"
@@ -24,6 +30,8 @@ const Clipboardsample = () => {
         onKeyDown={handleKeyDown}
         />
         <p>{inputValue}</p>
+
+        <textarea name="ara" id="ara" cols="50" rows="10" onPaste={handleArea}></textarea>
     </div>
   )
 }
