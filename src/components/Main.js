@@ -9,6 +9,8 @@ import FormShort from "./FormShort";
 import Clipboardsample from "./Clipboardsample";
 import MouseEvent from "./MouseEvent";
 import UseEffectSample from "./UseEffectSample";
+import EffectExample from "./EffectExample";
+
 
 
 function Main(){
@@ -55,10 +57,13 @@ function Main(){
       <Clipboardsample/>
       <MouseEvent/>
       <UseEffectSample/>
+      <EffectExample/>
+
+   
       
       
 
-            </main>
+      </main>
     )
 }
 
