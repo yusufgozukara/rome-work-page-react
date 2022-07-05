@@ -18,6 +18,7 @@ useEffect(() => {
 console.log('rendered');
   return (
     <div>
+        
         <h1>Use Effect Sample</h1>
         <h2>Count : {count}</h2>
         <button onClick={handleClick} className="chlan">+1 Artır</button>
