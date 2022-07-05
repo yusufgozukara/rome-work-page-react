@@ -4,6 +4,7 @@ import coll from "../img/colle.webp";
 import Person from './Person';
 import { useState } from "react";
 import List from "./List";
+import Form from "./Form";
 
 function Main(){
 
@@ -44,6 +45,8 @@ function Main(){
         img="https://cdn.pixabay.com/photo/2016/11/23/00/57/adult-1851571__340.jpg"
         tel="+90 551 123 44 77"
       />
+
+      <Form/>
 
             </main>
     )

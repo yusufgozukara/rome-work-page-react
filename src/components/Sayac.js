@@ -10,10 +10,10 @@ function Sayac() {
       <h4>Aşağıdaki yapıya kaç kez gittin? </h4>
       <h2>{count}</h2>
       <div>
-        <button onClick={() => { Mahmut(count - 1); }}
+        <button className="sayacbtn" onClick={() => { Mahmut(count - 1); }}
         >Azalt</button> <span>&nbsp;&nbsp;&nbsp;</span>
 
-        <button
+        <button className="sayacbtn" 
           onClick={() => {
             Mahmut(count + 1);
           }}
