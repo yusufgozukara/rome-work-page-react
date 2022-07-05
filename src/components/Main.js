@@ -5,6 +5,9 @@ import Person from './Person';
 import { useState } from "react";
 import List from "./List";
 import Form from "./Form";
+import FormShort from "./FormShort";
+import Clipboardsample from "./Clipboardsample";
+
 
 function Main(){
 
@@ -47,6 +50,9 @@ function Main(){
       />
 
       <Form/>
+      <Clipboardsample/>
+      
+      
 
             </main>
     )
